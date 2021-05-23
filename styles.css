@@ -1,0 +1,85 @@
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  font-family: "Pokemon", sans-serif;
+}
+
+main {
+  display: flex;
+  margin-bottom: 1rem;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+h1 {
+  font-size: 6rem;
+  color: antiquewhite;
+  text-shadow: 5px 5px black;
+}
+
+header img {
+  width: 50px;
+  margin-left: 1rem;
+}
+
+.card {
+  width: 20%;
+  min-width: 13rem;
+  margin: 1rem;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px whitesmoke;
+  background-color: rgb(248, 237, 221);
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px whitesmoke;
+  cursor: pointer;
+}
+
+.card img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contenedor-barra {
+  width: 95%;
+  height: 15px;
+  border: 2px solid black;
+  margin: 0.2rem auto;
+  border-radius: 20px;
+  display: flex;
+}
+
+.contenedor-barra div {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.verde {
+  background-color: lightgreen;
+  height: 100%;
+}
+
+.rojo {
+  height: 100%;
+  background-color: red;
+}
+
+.amarillo {
+  height: 100%;
+  background-color: yellow;
+}
